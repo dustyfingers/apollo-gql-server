@@ -2,10 +2,10 @@ import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 
 const users = [
-  { is: "1", name: "John Doe", age: 30, isMarried: true },
-  { is: "2", name: "Jane Doe", age: 25, isMarried: true },
-  { is: "3", name: "Simon Jones", age: 30, isMarried: false },
-  { is: "4", name: "Kate Adams", age: 22, isMarried: true },
+  { id: "1", name: "John Doe", age: 30, isMarried: true },
+  { id: "2", name: "Jane Doe", age: 25, isMarried: true },
+  { id: "3", name: "Simon Jones", age: 30, isMarried: false },
+  { id: "4", name: "Kate Adams", age: 22, isMarried: true },
 ];
 
 // these types define our entire api
