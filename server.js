@@ -16,7 +16,7 @@ const typeDefs = `
     }
 
     type Mutation {
-        createUser(name: String!, age: Int!, isMarried: Boolean!): User!
+        createUser(name: String!, age: Int!, isMarried: Boolean!): User
     }
 
     type User {
