@@ -20,7 +20,7 @@ const typeDefs = `
     }
 
     type User {
-        id: ID!
+        id: ID
         name: String
         age: Int
         isMarried: Boolean
